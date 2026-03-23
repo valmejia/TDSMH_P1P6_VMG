@@ -6,11 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 
 public class PrincipalActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -22,12 +19,11 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 
-        txtnombre.findViewById(R.id.txtnombre);
-        txtedad.findViewById(R.id.txtedad);
-        txtcorreo.findViewById(R.id.txtcorreo);
-        txttelefono.findViewById(R.id.txttelefono);
-
-        btn1enviar.findViewById(R.id.btn1enviar);
+        txtnombre = findViewById(R.id.txtnombre);
+        txtedad = findViewById(R.id.txtedad);
+        txttelefono = findViewById(R.id.txttelefono);
+        txtcorreo = findViewById(R.id.txtcorreo);
+        btn1enviar = findViewById(R.id.btn1enviar);
         btn1enviar.setOnClickListener(this);
 
     }
