@@ -23,16 +23,16 @@ public class SegundoActivity extends AppCompatActivity {
 
 
         lblnombre = findViewById(R.id.lblnombre);
-        lblnombre.setText("hola," + nombre +",bienvenido...");
+        lblnombre.setText(nombre);
 
         lbledad = findViewById(R.id.lbledad);
-        lbledad.setText("hola," + edad +",bienvenido...");
+        lbledad.setText(edad);
 
         lblcorreo = findViewById(R.id.lblcorreo);
-        lblcorreo.setText("hola," + correo +",bienvenido...");
+        lblcorreo.setText(correo);
 
         lbltelefono = findViewById(R.id.lbltelefono);
-        lbltelefono.setText("hola," + telefono +",bienvenido...");
+        lbltelefono.setText(telefono);
 
         lbltomar = findViewById(R.id.lbltomar);
 
